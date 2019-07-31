@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+  font-weight: normal;
+}
+
+body{
+  background-color: gray;
+}
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%); 
+  text-align: center;
+}
+
+button{
+  color: white;
+  background-color: black;
+  border:none;
+  padding: 12px;
+  margin: 7px;
+  outline:none;
+  cursor:pointer;
+
+}
+
+.setting-screen{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 160px;
+  background-color:black;
+  color:white;
+  text-align: center;
+  font-size: 25px;
+}
+
+.main-screen{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 250px;
+  margin-top:20px;
+  background-color:black;
+  color:white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.session{
+  margin-right:60px;
+}
+
+.size-double{
+  font-size: 60px;
+}
+.size-increase{
+  font-size: 25px;
+}
+
+.title{
+  font-size: 55px;
+  color:rgb(255, 255, 255, 0.65);
+}
+
+.timer{
+  padding-top: 10px;
+  margin-top: 10px;
+  font-size: 50px;
+}

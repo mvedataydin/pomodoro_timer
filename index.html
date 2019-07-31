@@ -3,12 +3,38 @@
   <head>
     <meta charset="UTF-8">
     <title>Pomodoro Timer</title>
+    
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css" type="text/css">
   </head>
   <body>
     <div class = "container">
-      <div class = "setting-screen"></div>
-      <div class = "main-screen"></div>
+      <div class = "title">POMODORO!</div>
+      <div class = "setting-screen">
+        <label>Session</label>
+        <div class = "session">
+          <button class ="size-increase session-up">▲</button>
+          <div class = "session-value">25</div>
+          <button class ="size-increase session-down" >▼</button>
+        </div>
+        <label>Break</label>
+        <div class = "break">
+          <button class ="size-increase break-up">▲</button>
+          <div class = "dur-value">5</div>
+          <button class ="size-increase break-down">▼</button>
+        </div>
+      </div>
+      <div class = "main-screen">
+          <button class = "play"><i class="material-icons size-double">play_arrow</i></button>
+          <button class = "refresh"><i class="material-icons size-double">refresh</i></button>
+          <div class = "display">
+            <label for = "timer">Session</label>
+            <div class = "timer" name = "timer">25:00</div>
+          </div>
+          <button class = "pause"><i class="material-icons size-double">pause</i></button>
+          <button class = "stop"><i class="material-icons size-double">stop</i></button>
+      </div>
     </div>
   
   <script src="./script.js" type="text/javascript"></script>
