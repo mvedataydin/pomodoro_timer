@@ -15,13 +15,13 @@
         <label>Session</label>
         <div class = "session">
           <button class ="size-increase session-up">▲</button>
-          <div class = "session-value">25</div>
+          <div class = "session-value"></div>
           <button class ="size-increase session-down" >▼</button>
         </div>
         <label>Break</label>
         <div class = "break">
           <button class ="size-increase break-up">▲</button>
-          <div class = "dur-value">5</div>
+          <div class = "break-value"></div>
           <button class ="size-increase break-down">▼</button>
         </div>
       </div>
@@ -30,7 +30,8 @@
           <button class = "refresh"><i class="material-icons size-double">refresh</i></button>
           <div class = "display">
             <label for = "timer">Session</label>
-            <div class = "timer" name = "timer">25:00</div>
+            <div class = "timer" id = "timer" name = "timer"></div>
+            <div class = "pause-alert active">Paused</div>
           </div>
           <button class = "pause"><i class="material-icons size-double">pause</i></button>
           <button class = "stop"><i class="material-icons size-double">stop</i></button>
