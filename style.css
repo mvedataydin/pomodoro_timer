@@ -80,3 +80,18 @@ button{
 .active{
   color: green;
 }
+
+.blink-me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.display{
+width : 200px;
+text-align: center;
+}
