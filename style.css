@@ -7,7 +7,7 @@
 }
 
 body{
-  background-color: gray;
+  background: linear-gradient(to bottom,rgb(44, 44, 44), rgb(194, 194, 194)) fixed;
 }
 
 .container{
@@ -28,6 +28,10 @@ button{
   outline:none;
   cursor:pointer;
 
+}
+
+button:active{
+  color: rgb(0, 0, 0);
 }
 
 .setting-screen{
